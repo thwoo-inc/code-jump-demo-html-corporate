@@ -1,0 +1,130 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #121212;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#header {
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  padding: 40px 50px 30px 45px;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+}
+
+#header .nav-menu {
+  margin-bottom: 60px;
+}
+
+#header li {
+  font-size: 0.875rem;
+  padding: 8px 0;
+}
+
+.site-title {
+  width: 200px;
+  line-height: 1px;
+  margin-bottom: 30px;
+}
+
+.site-title a {
+  display: block;
+}
+
+.container {
+  margin-left: 300px;
+}
+
+#video {
+  width: 100%;
+  height: 100vh;
+}
+
+#video .bg-video {
+  position: fixed;
+  top: -220px;
+  z-index: -10;
+}
+
+#project {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  color: #fff;
+}
+
+#project .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#project .list li {
+  width: 47%;
+  border: solid 1px #fff;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#project .list .name {
+  color: #fff;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 4px;
+  left: 7px;
+  z-index: 5;
+}
+
+#project .list li a {
+  display: block;
+}
+
+#project .list li a::after {
+  content: '';
+  box-shadow: 0 -30px 15px -1px #2e2e2e inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.wrapper {
+  max-width: 900px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.sec-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.75rem;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.sec-title::before,
+.sec-title::after {
+  border-top: 1px solid;
+  content: '';
+  color: blue;
+  width: 28%;
+}
+
+a {
+  color: #121212;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
